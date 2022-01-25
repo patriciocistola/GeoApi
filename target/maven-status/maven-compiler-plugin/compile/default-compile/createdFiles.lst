@@ -1,0 +1,7 @@
+com\example\demo\DemoApplication.class
+com\example\demo\repositories\PartidoRepository.class
+com\example\demo\controllers\PartidoController.class
+com\example\demo\services\PartidoService.class
+SpringFoxConfig.class
+com\example\demo\models\PartidoModel.class
+com\example\demo\ServletInitializer.class
