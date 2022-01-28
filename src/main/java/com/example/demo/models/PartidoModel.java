@@ -3,18 +3,17 @@ package com.example.demo.models;
 import javax.persistence.*;
 
 @Entity
-@Table(name="partidos", schema="ci")
+@Table(name = "partidos", schema = "public")
 public class PartidoModel {
 
 	@Id
-	@Column(name="idpartido")
+	@Column(name = "idpartido")
 	private int idpartido;
 
-	@Column(name="nombre")
+	@Column(name = "nombre")
 	private String nombre;
 
-
-    public int getIdpartido() {
+	public int getIdpartido() {
 		return idpartido;
 	}
 
@@ -29,7 +28,5 @@ public class PartidoModel {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	
-	
-    
+
 }
